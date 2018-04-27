@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sleep 10
+        sleep 1
       }
     }
     stage('build') {
