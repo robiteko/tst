@@ -18,7 +18,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        build 'tests_job'
+        build 'testing_job'
       }
     }
   }
